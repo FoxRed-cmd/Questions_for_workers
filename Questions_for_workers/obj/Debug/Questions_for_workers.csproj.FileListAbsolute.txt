@@ -1,0 +1,10 @@
+D:\Visual Project\Questions_for_workers\Questions_for_workers\bin\Debug\Questions_for_workers.exe.config
+D:\Visual Project\Questions_for_workers\Questions_for_workers\bin\Debug\Questions_for_workers.exe
+D:\Visual Project\Questions_for_workers\Questions_for_workers\bin\Debug\Questions_for_workers.pdb
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.csprojAssemblyReference.cache
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.Properties.Resources.resources
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.csproj.GenerateResource.cache
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.csproj.CoreCompileInputs.cache
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.exe
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.pdb
+D:\Visual Project\Questions_for_workers\Questions_for_workers\obj\Debug\Questions_for_workers.Form1.resources
