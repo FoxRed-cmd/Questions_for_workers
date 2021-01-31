@@ -148,7 +148,7 @@ namespace Questions_for_workers
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.BackColor = System.Drawing.Color.LightSteelBlue;
+			this.BackColor = System.Drawing.Color.AliceBlue;
 			this.ClientSize = new System.Drawing.Size(773, 459);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
