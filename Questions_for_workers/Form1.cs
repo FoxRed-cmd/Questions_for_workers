@@ -130,7 +130,7 @@ namespace Questions_for_workers
 
 			answers += $"Верных ответов: {count}/15.";
 
-			MailAddress from = new MailAddress("testwork999@mail.ru", "Работа");
+			MailAddress from = new MailAddress("testovaya.pochta.1994@mail.ru", "Работа");
 			MailAddress to = new MailAddress(email);
 			using (MailMessage mailMessage = new MailMessage(from, to))
 			{
@@ -143,7 +143,7 @@ namespace Questions_for_workers
 					smtpClient.EnableSsl = true;
 					smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 					smtpClient.UseDefaultCredentials = false;
-					smtpClient.Credentials = new NetworkCredential(from.Address, "winterretniw999");
+					smtpClient.Credentials = new NetworkCredential(from.Address, "Gendelf03062002");
 					smtpClient.Send(mailMessage);
 				}
 			}

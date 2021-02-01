@@ -66,7 +66,7 @@ namespace Questions_for_workers
 			this.textBox2.Multiline = true;
 			this.textBox2.Name = "textBox2";
 			this.textBox2.ReadOnly = true;
-			this.textBox2.Size = new System.Drawing.Size(551, 153);
+			this.textBox2.Size = new System.Drawing.Size(551, 90);
 			this.textBox2.TabIndex = 2;
 			// 
 			// radioButton1
