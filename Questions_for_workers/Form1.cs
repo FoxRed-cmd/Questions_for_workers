@@ -11,7 +11,7 @@ namespace Questions_for_workers
 		string answers;
 		string[] answers2;
 
-		string email = "rabota.praktika@mail.ru";
+		string email = "kirya.blinov.2022@mail.ru";
 
 		string[] question = {	"Является ли дата и место составления первичного документа его обязательными реквизитами?",
 								"Какой первичный документ подтверждает факт сдачи выручки в банк сотрудником компании?", "Какой документ не подписывается директором компании?",
@@ -64,6 +64,7 @@ namespace Questions_for_workers
 			button1.Text = "Ответить";
 			button2.Text = "Отправить";
 			button3.Text = "Сброс";
+			groupBox1.Text = "Варианты ответа";
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -129,7 +130,7 @@ namespace Questions_for_workers
 
 			answers += $"Верных ответов: {count}/15.";
 
-			MailAddress from = new MailAddress("worktest90@mail.ru", "Работа");
+			MailAddress from = new MailAddress("testwork999@mail.ru", "Работа");
 			MailAddress to = new MailAddress(email);
 			using (MailMessage mailMessage = new MailMessage(from, to))
 			{
@@ -142,7 +143,7 @@ namespace Questions_for_workers
 					smtpClient.EnableSsl = true;
 					smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 					smtpClient.UseDefaultCredentials = false;
-					smtpClient.Credentials = new NetworkCredential(from.Address, "warricqwerty2002");
+					smtpClient.Credentials = new NetworkCredential(from.Address, "winterretniw999");
 					smtpClient.Send(mailMessage);
 				}
 			}
@@ -153,5 +154,6 @@ namespace Questions_for_workers
 		{
 			Application.Restart();
 		}
+
 	}
 }

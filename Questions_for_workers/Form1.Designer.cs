@@ -38,6 +38,8 @@ namespace Questions_for_workers
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
+			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// textBox1
@@ -60,18 +62,18 @@ namespace Questions_for_workers
 			// textBox2
 			// 
 			this.textBox2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.textBox2.Location = new System.Drawing.Point(12, 70);
+			this.textBox2.Location = new System.Drawing.Point(129, 46);
 			this.textBox2.Multiline = true;
 			this.textBox2.Name = "textBox2";
 			this.textBox2.ReadOnly = true;
-			this.textBox2.Size = new System.Drawing.Size(749, 66);
+			this.textBox2.Size = new System.Drawing.Size(551, 153);
 			this.textBox2.TabIndex = 2;
 			// 
 			// radioButton1
 			// 
 			this.radioButton1.AutoSize = true;
 			this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.radioButton1.Location = new System.Drawing.Point(12, 142);
+			this.radioButton1.Location = new System.Drawing.Point(6, 58);
 			this.radioButton1.Name = "radioButton1";
 			this.radioButton1.Size = new System.Drawing.Size(101, 21);
 			this.radioButton1.TabIndex = 3;
@@ -83,7 +85,7 @@ namespace Questions_for_workers
 			// 
 			this.radioButton2.AutoSize = true;
 			this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.radioButton2.Location = new System.Drawing.Point(12, 165);
+			this.radioButton2.Location = new System.Drawing.Point(6, 31);
 			this.radioButton2.Name = "radioButton2";
 			this.radioButton2.Size = new System.Drawing.Size(101, 21);
 			this.radioButton2.TabIndex = 3;
@@ -95,7 +97,7 @@ namespace Questions_for_workers
 			// 
 			this.radioButton3.AutoSize = true;
 			this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.radioButton3.Location = new System.Drawing.Point(12, 188);
+			this.radioButton3.Location = new System.Drawing.Point(6, 85);
 			this.radioButton3.Name = "radioButton3";
 			this.radioButton3.Size = new System.Drawing.Size(101, 21);
 			this.radioButton3.TabIndex = 3;
@@ -108,7 +110,7 @@ namespace Questions_for_workers
 			this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.button1.FlatAppearance.BorderSize = 0;
 			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Location = new System.Drawing.Point(686, 424);
+			this.button1.Location = new System.Drawing.Point(682, 204);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 4;
@@ -121,7 +123,7 @@ namespace Questions_for_workers
 			this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.button2.FlatAppearance.BorderSize = 0;
 			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Location = new System.Drawing.Point(686, 10);
+			this.button2.Location = new System.Drawing.Point(703, 10);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(75, 23);
 			this.button2.TabIndex = 5;
@@ -134,7 +136,7 @@ namespace Questions_for_workers
 			this.button3.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.button3.FlatAppearance.BorderSize = 0;
 			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button3.Location = new System.Drawing.Point(12, 424);
+			this.button3.Location = new System.Drawing.Point(6, 204);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(75, 23);
 			this.button3.TabIndex = 6;
@@ -142,20 +144,30 @@ namespace Questions_for_workers
 			this.button3.UseVisualStyleBackColor = false;
 			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
+			// groupBox1
+			// 
+			this.groupBox1.Controls.Add(this.radioButton2);
+			this.groupBox1.Controls.Add(this.button3);
+			this.groupBox1.Controls.Add(this.radioButton1);
+			this.groupBox1.Controls.Add(this.radioButton3);
+			this.groupBox1.Controls.Add(this.button1);
+			this.groupBox1.Location = new System.Drawing.Point(15, 214);
+			this.groupBox1.Name = "groupBox1";
+			this.groupBox1.Size = new System.Drawing.Size(763, 233);
+			this.groupBox1.TabIndex = 7;
+			this.groupBox1.TabStop = false;
+			this.groupBox1.Text = "groupBox1";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.BackColor = System.Drawing.Color.AliceBlue;
-			this.ClientSize = new System.Drawing.Size(773, 459);
-			this.Controls.Add(this.button3);
+			this.BackColor = System.Drawing.Color.DarkSalmon;
+			this.ClientSize = new System.Drawing.Size(790, 459);
+			this.Controls.Add(this.groupBox1);
 			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.radioButton3);
-			this.Controls.Add(this.radioButton2);
-			this.Controls.Add(this.radioButton1);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.textBox1);
@@ -166,6 +178,8 @@ namespace Questions_for_workers
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Тестирование";
 			this.Load += new System.EventHandler(this.Form1_Load);
+			this.groupBox1.ResumeLayout(false);
+			this.groupBox1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -182,6 +196,7 @@ namespace Questions_for_workers
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.GroupBox groupBox1;
 	}
 }
 
